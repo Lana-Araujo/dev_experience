@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Galeria de Fotos Moderna</title>
+  <link rel="stylesheet" href="galeria.css">
  
 </head>
 <body>
@@ -15,9 +16,20 @@
     
 </ul>
 
-</nav>
-<img src="../IMG67.jpg" alt="GIF animado" width="100%" height="99%" style="border: 1px solid black;">
-
+<nav>
+    <img src="logodev.png" class="logo">
+    <ul>
+      <li><a href="index.html">Módulos</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">Edições</a>
+        <div class="dropdown-content">
+          <a href="edicoes.php">Edição 2023</a>
+        </div>
+      </li>
+      <li><a href="precos.html">Galeria</a></li>
+      <li><a href="servicos.html">Vencedores</a></li>
+    </ul>
+  </nav>
 
   <div class="gallery">
     <img src="../img/logo.png" alt="Imagem 1">
@@ -84,6 +96,7 @@
       transform: scale(1.1);
     }
     .modal {
+      padding-bottom: 20px; /* Espaço abaixo do conteúdo */
       display: none;
       position: fixed;
       z-index: 1;
@@ -95,7 +108,7 @@
       background-color: #000;
     }
     .modal-content {
-      margin: auto;
+      margin: 40px;
       display: block;
       width: 80%;
       max-width: 800px;
