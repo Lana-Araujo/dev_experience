@@ -21,7 +21,7 @@
       <li><a href="servicos.html">Vencedores</a></li>
     </ul>
   </nav>
-  <img src="2023.png" alt="Imagem 1" class="img1"></div>
+  <img src="img/2023.png" alt="Imagem 1" class="img1"></div>
   <section>
     <p>
         O "SENAI Dev Experience" é uma maratona de tecnologia que reúne estudantes de nível técnico da Escola e Faculdade SENAI Felix Guisard em uma competição de aprendizado prático, interação entre estudantes e incentivo ao trabalho em equipe para resolução de problemas.
