@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Galeria de Fotos Moderna</title>
+  <link rel="stylesheet" href="galeria.css">
  
 </head>
 <body>
@@ -15,9 +16,20 @@
     
 </ul>
 
-</nav>
-<img src="../IMG67.jpg" alt="GIF animado" width="100%" height="99%" style="border: 1px solid black;">
-
+<nav>
+    <img src="logodev.png" class="logo">
+    <ul>
+      <li><a href="index.html">Módulos</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">Edições</a>
+        <div class="dropdown-content">
+          <a href="edicoes.php">Edição 2023</a>
+        </div>
+      </li>
+      <li><a href="precos.html">Galeria</a></li>
+      <li><a href="servicos.html">Vencedores</a></li>
+    </ul>
+  </nav>
 
   <div class="gallery">
     <img src="../img/logo.png" alt="Imagem 1">
@@ -58,104 +70,6 @@
       modal.style.display = 'none';
     });
   </script>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #fff;
-    }
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-top: 20px;
-    }
-    .gallery img {
-      width: 300px;
-      height: auto;
-      margin: 10px;
-      border-radius: 5px;
-      box-shadow: 0 0 10px #f4f4f4;
-      transition: transform 0.3s ease;
-      cursor: pointer;
-    }
-    .gallery img:hover {
-      transform: scale(1.1);
-    }
-    .modal {
-      display: none;
-      position: fixed;
-      z-index: 1;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      overflow: auto;
-      background-color: #000;
-    }
-    .modal-content {
-      margin: auto;
-      display: block;
-      width: 80%;
-      max-width: 800px;
-      max-height: 80%;
-    }
-    .modal-content img {
-      width: 100%;
-      height: auto;
-      display: block;
-      margin: auto;
-    }
-    .close-btn {
-      color: #fff;
-      font-size: 30px;
-      position: absolute;
-      top: 10px;
-      right: 15px;
-      cursor: pointer;
-    }
   
-    nav{
-    background-color: #000000;
-    padding: 10px 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-nav .logo a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 35px;
-    font-weight: 600;
-}
-nav ul{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    padding: 10px;
-}
-nav li{
-    margin-left: 7px;
-}
-nav li a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 8px 15px;
-    border-radius: 5px;
-    transition: 0.3s;
-}
-nav li a:hover{
-    background-color: #4e4395;
-    color: black;
-}
-.video {
-      width: 100%; /* Largura do vídeo */
-      height: 50%; /* Altura do vídeo */
-    }
-  </style>
-  </style>
 </body>
 </html>
