@@ -16,22 +16,22 @@
 </ul>
 
 </nav>
-<img src="../IMG67.jpg" alt="GIF animado" width="100%" height="99%" style="border: 1px solid black;">
+<img src="IMG67.jpg" alt="GIF animado" width="100%" height="99%" style="border: 1px solid black;">
 
 
   <div class="gallery">
-    <img src="../img/logo.png" alt="Imagem 1">
-    <img src="../img/Regra 1.jpg" alt="Imagem 2">
-    <img src="../img/trofeu.jpeg" alt="Imagem 3">
-    <img src="../img/t3.jpg" alt="Imagem 4">
-    <img src="../img/t3.jpg" alt="Imagem 4">
-    <img src="../img/t3.jpg" alt="Imagem 4">
-    <img src="../img/t3.jpg" alt="Imagem 4">
-    <img src="../img/t3.jpg" alt="Imagem 4">
-    <img src="../img/logo.png" alt="Imagem 1">
-    <img src="../img/Regra 1.jpg" alt="Imagem 2">
-    <img src="../img/trofeu.jpeg" alt="Imagem 3">
-    <img src="../img/Regra 1.jpg" alt="Imagem 2">
+    <img src="img/logo.png" alt="Imagem 1">
+    <img src="img/Regra 1.jpg" alt="Imagem 2">
+    <img src="img/trofeu.jpeg" alt="Imagem 3">
+    <img src="img/t3.jpg" alt="Imagem 4">
+    <img src="img/t3.jpg" alt="Imagem 4">
+    <img src="img/t3.jpg" alt="Imagem 4">
+    <img src="img/t3.jpg" alt="Imagem 4">
+    <img src="img/t3.jpg" alt="Imagem 4">
+    <img src="img/logo.png" alt="Imagem 1">
+    <img src="img/Regra 1.jpg" alt="Imagem 2">
+    <img src="img/trofeu.jpeg" alt="Imagem 3">
+    <img src="img/Regra 1.jpg" alt="Imagem 2">
     <!-- Adicione mais imagens conforme necessário -->
   </div>
 
