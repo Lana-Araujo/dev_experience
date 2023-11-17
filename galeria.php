@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Galeria de Fotos Moderna</title>
-  <link rel="stylesheet" href="galeria.css">
  
 </head>
 <body>
@@ -16,34 +15,23 @@
     
 </ul>
 
-<nav>
-    <img src="logodev.png" class="logo">
-    <ul>
-      <li><a href="index.html">Módulos</a></li>
-      <li class="dropdown">
-        <a href="#" class="dropbtn">Edições</a>
-        <div class="dropdown-content">
-          <a href="edicoes.php">Edição 2023</a>
-        </div>
-      </li>
-      <li><a href="precos.html">Galeria</a></li>
-      <li><a href="servicos.html">Vencedores</a></li>
-    </ul>
-  </nav>
+</nav>
+<img src="IMG67.jpg" alt="GIF animado" width="100%" height="99%" style="border: 1px solid black;">
+
 
   <div class="gallery">
-    <img src="../img/logo.png" alt="Imagem 1">
-    <img src="../img/Regra 1.jpg" alt="Imagem 2">
-    <img src="../img/trofeu.jpeg" alt="Imagem 3">
-    <img src="../img/t3.jpg" alt="Imagem 4">
-    <img src="../img/t3.jpg" alt="Imagem 4">
-    <img src="../img/t3.jpg" alt="Imagem 4">
-    <img src="../img/t3.jpg" alt="Imagem 4">
-    <img src="../img/t3.jpg" alt="Imagem 4">
-    <img src="../img/logo.png" alt="Imagem 1">
-    <img src="../img/Regra 1.jpg" alt="Imagem 2">
-    <img src="../img/trofeu.jpeg" alt="Imagem 3">
-    <img src="../img/Regra 1.jpg" alt="Imagem 2">
+    <img src="img/logo.png" alt="Imagem 1">
+    <img src="img/Regra 1.jpg" alt="Imagem 2">
+    <img src="img/trofeu.jpeg" alt="Imagem 3">
+    <img src="img/t3.jpg" alt="Imagem 4">
+    <img src="img/t3.jpg" alt="Imagem 4">
+    <img src="img/t3.jpg" alt="Imagem 4">
+    <img src="img/t3.jpg" alt="Imagem 4">
+    <img src="img/t3.jpg" alt="Imagem 4">
+    <img src="img/logo.png" alt="Imagem 1">
+    <img src="img/Regra 1.jpg" alt="Imagem 2">
+    <img src="img/trofeu.jpeg" alt="Imagem 3">
+    <img src="img/Regra 1.jpg" alt="Imagem 2">
     <!-- Adicione mais imagens conforme necessário -->
   </div>
 
@@ -96,7 +84,6 @@
       transform: scale(1.1);
     }
     .modal {
-      padding-bottom: 20px; /* Espaço abaixo do conteúdo */
       display: none;
       position: fixed;
       z-index: 1;
@@ -108,7 +95,7 @@
       background-color: #000;
     }
     .modal-content {
-      margin: 40px;
+      margin: auto;
       display: block;
       width: 80%;
       max-width: 800px;
