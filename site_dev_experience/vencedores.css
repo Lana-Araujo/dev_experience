@@ -1,0 +1,118 @@
+
+nav{
+    background-color: #000000;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+nav li{
+    margin-left: 7px;
+}
+nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+nav li a:hover{
+    background-color: #4e4395;
+    color: black;
+}
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .logo{
+    width: 50px;
+    height: 50px;
+  }
+
+
+ .img1{
+    width: 1600px;
+    height: 300px;
+} 
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4e4395;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  h2{
+    text-align: center;
+  }
+  .vencedores-content li {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  
+  .vencedores-content {
+    margin: 0 20px; /* Adicione margens laterais de 20px */
+  }
+
+  .vencedores-content h2,
+  .vencedores-content p,
+  .vencedores-content ul {
+    margin: 10px 0;
+  }
+
+  .vencedores-content li {
+    margin-bottom: 10px;
+  }
+
+  /* Adicione o estilo para centralizar as sections */
+  .vencedores-content section {
+    text-align: center;
+    margin: 20px auto; /* Margens superior e inferior, auto à esquerda e à direita para centralizar */
+    padding: 20px; /* Adicione algum preenchimento para criar um "quadrado" em torno da section */
+    border: 2px solid #ccc; /* Adicione uma borda para destacar os quadrados */
+    max-width: 400px; /* Defina uma largura máxima para evitar que as sections fiquem muito largas */
+  }
+
+  .trofeu-image,
+  .ouro-image,
+  .prata-image,
+  .bronze-image {
+    width: 100%; /* Ajuste a largura conforme necessário */
+    max-width: 300px; /* Defina uma largura máxima para as imagens */
+    height: auto; /* Mantenha a proporção da imagem */
+    display: block; /* Remova espaços extras abaixo das imagens */
+    margin: 10px 0; /* Adicione margens acima e abaixo das imagens */
+  }
